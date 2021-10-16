@@ -4,7 +4,7 @@
 - **vscode extensions**
 - **.zshrc** 
 
-## Select the file that you need, and enjoy!
+**Select the file that you need, and enjoy!**
 
 
 ### Happy coding!
