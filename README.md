@@ -3,6 +3,7 @@ These are my terminal and code editor config files
 ## :chains: Links
 ### Fonts
 - [Fira Code](https://github.com/tonsky/FiraCode)
+- [Jetbrains Mono](https://www.jetbrains.com/pt-br/lp/mono/)
 ### ZSH
 - [Oh My Zsh](https://ohmyz.sh/)
 - [Spaceship Theme](https://github.com/spaceship-prompt/spaceship-prompt)
