@@ -20,14 +20,12 @@ export ZSH="/home/gabriel/.oh-my-zsh"
 ZSH_THEME="spaceship"
 
 SPACESHIP_USER_SHOW=always
-SPACESHIP_USER_COLOR=#7c40ff
-SPACESHIP_PROMPT_SEPARATE_LINE=true
-SPACESHIP_PROMPT_ADD_NEWLINE=true
-SPACESHIP_NODE_SHOW=true
-SPACESHIP_NODE_DEFAULT_VERSION=true
+SPACESHIP_USER_COLOR=#8257E5
+SPACESHIP_PROMPT_SEPARATE_LINE=false
 SPACESHIP_DIR_COLOR=#1AA7EC
 SPACESHIP_GIT_BRANCH_COLOR=#bf00ff
 SPACESHIP_EXEC_TIME_COLOR=#8cd3ff
+SPACESHIP_PACKAGE_SHOW=false
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -129,4 +127,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This 
 #loads nvm bash_completion
 
-
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
