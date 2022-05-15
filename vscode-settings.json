@@ -57,6 +57,5 @@
   "polacode.shadow": "rgba(0, 0, 0, 0) 0px 0 0",
   "workbench.startupEditor": "none",
   "bracketPairColorizer.depreciation-notice": false,
-  "workbench.colorTheme": "Dracula Pro",
-  "files.autoSave": "afterDelay"
+  "workbench.colorTheme": "Dracula Pro"
 }

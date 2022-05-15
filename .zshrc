@@ -26,6 +26,7 @@ SPACESHIP_DIR_COLOR=#1AA7EC
 SPACESHIP_GIT_BRANCH_COLOR=#bf00ff
 SPACESHIP_EXEC_TIME_COLOR=#8cd3ff
 SPACESHIP_PACKAGE_SHOW=false
+SPACESHIP_NODE_SHOW=false
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
