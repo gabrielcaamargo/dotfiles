@@ -1,37 +1,44 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-
-     // Editor settings
   "editor.wordWrap": "on",
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 30,
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.fontFamily": "Jetbrains Mono",
   "editor.tabSize": 2,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
+  "editor.inlayHints.fontSize": 12,
   "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontWeight": "600",
+  "editor.fontWeight": "300",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
+  "workbench.editor.showTabs": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "frame": false,
+  },
   "editor.parameterHints.enabled": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
   "extensions.ignoreRecommendations": true,
-
   // VSCode stuff
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
   // Emmet
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   // Extensions
   "diffEditor.ignoreTrimWhitespace": false,
   "material-icon-theme.folders.associations": {
@@ -52,10 +59,6 @@
   "[prisma]": {
     "editor.formatOnSave": true
   },
-  "[scss]": {
-    "editor.defaultFormatter": "MikeBovenlander.formate",
-    "editor.formatOnSave": true
-  },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
@@ -68,13 +71,34 @@
   "workbench.startupEditor": "none",
   "bracketPairColorizer.depreciation-notice": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorTheme": "Dracula Pro",
   "task.problemMatchers.neverPrompt": {
     "shell": true
   },
-  "window.menuBarVisibility": "visible",
+  "window.menuBarVisibility": "compact",
   "workbench.list.multiSelectModifier": "alt",
   "editor.multiCursorModifier": "ctrlCmd",
   "window.titleBarStyle": "custom",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.productIconTheme": "fluent-icons",
+  "tabnine.experimentalAutoImports": true,
+  "inline-parameters.fontSize": "0.8em",
+  "laravel-pint.enable": true,
+  "editor.formatOnSave": true,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.customMenuBarAltFocus": false,
+  "window.experimental.nativeContextMenuLocation": false,
+  "window.enableMenuBarMnemonics": false,
+  "editor.codeActionWidget.showHeaders": false,
+  "workbench.layoutControl.type": "menu",
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "right",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "breadcrumbs.icons": false,
+  "workbench.colorTheme": "Moonlight",
+  "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": -1
 }
