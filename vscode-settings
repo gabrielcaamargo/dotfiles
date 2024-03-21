@@ -1,88 +1,23 @@
 {
-  "editor.wordWrap": "on",
-  "editor.lineHeight": 25,
-  "terminal.integrated.fontSize": 18,
-  "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "editor.fontFamily": "Jetbrains Mono",
-  "editor.tabSize": 2,
-  "editor.fontSize": 17,
-  "editor.inlayHints.fontSize": 1,
-  "editor.fontWeight": "100",
-  "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.showTabs": "multiple",
-  "editor.rulers": [80, 120],
-  "window.titleBarStyle": "native",
-  "editor.parameterHints.enabled": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.fixAll.eslint": "explicit"
-  },
-  "extensions.ignoreRecommendations": true,
-  "breadcrumbs.enabled": false,
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "material-icon-theme.folders.associations": {
-    "domain": "core",
-    "infra": "app",
-    "main": "public",
-    "presentation": "connection",
-    "cryptography": "secure",
-    "entities": "class",
-    "repositories": "mappings",
-    "protocols": "resource",
-    "useCases": "components",
-    "adapters": "connection",
-    "factories": "container",
-    "globals": "global",
-    "ui": "views"
-  },
-  "[prisma]": {
-    "editor.formatOnSave": true
-  },
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
-  },
-  "material-icon-theme.activeIconPack": "nest",
-  "workbench.startupEditor": "none",
-  "security.workspace.trust.untrustedFiles": "open",
-  "task.problemMatchers.neverPrompt": {
-    "shell": true
-  },
-  "window.menuBarVisibility": "toggle",
-  "workbench.list.multiSelectModifier": "alt",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.productIconTheme": "fluent-icons",
-  "editor.formatOnSave": true,
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "window.customMenuBarAltFocus": false,
-  "window.experimental.nativeContextMenuLocation": false,
-  "window.enableMenuBarMnemonics": false,
-  "editor.codeActionWidget.showHeaders": false,
-  "workbench.layoutControl.type": "menu",
-  "editor.minimap.enabled": false,
-  "workbench.editor.enablePreview": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.showWelcomeOnInstall": false,
-  "gitlens.showWhatsNewAfterUpgrades": false,
-  "breadcrumbs.icons": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": -1,
-  "workbench.colorTheme": "Minimal",
-  "symbols.hidesExplorerArrows": false,
-  "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "window.commandCenter": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "material-icon-theme.activeIconPack": "nest"
 }
