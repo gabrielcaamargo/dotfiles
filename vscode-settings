@@ -1,12 +1,10 @@
 {
-    "workbench.colorTheme": "Night Owl (No Italics)",
     "editor.fontFamily": "Jetbrains Mono",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
     "workbench.iconTheme": "material-icon-theme",
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.compactFolders": false,
-    "breadcrumbs.enabled": false,
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit",
         "source.fixAll.eslint": "explicit"
@@ -19,5 +17,7 @@
     "workbench.tree.enableStickyScroll": false,
     "editor.minimap.enabled": false,
     "workbench.layoutControl.enabled": false,
-    "material-icon-theme.activeIconPack": "nest"
+    "material-icon-theme.activeIconPack": "nest",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Night Owl",
 }
