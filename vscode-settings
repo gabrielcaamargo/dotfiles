@@ -1,17 +1,14 @@
 {
     "editor.fontFamily": "Jetbrains Mono",
+    "editor.letterSpacing": -0.1,
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
     "workbench.iconTheme": "material-icon-theme",
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.compactFolders": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": "explicit",
-        "source.fixAll.eslint": "explicit"
-    },
-    "[typescript]": {
-        "editor.formatOnSave": true
-    },
     "window.commandCenter": false,
     "editor.stickyScroll.enabled": false,
     "workbench.tree.enableStickyScroll": false,
@@ -19,5 +16,37 @@
     "workbench.layoutControl.enabled": false,
     "material-icon-theme.activeIconPack": "nest",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "Night Owl",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+      },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "none",
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "workbench.activityBar.location": "top",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "workbench.colorTheme": "Dracula Pro",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "material-icon-theme.folders.associations": {
+        "store": "Database"
+    },
+    "explorer.confirmDelete": false,
 }
